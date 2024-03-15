@@ -5,6 +5,3 @@ this sample repo!
 
 devi ahiliya vishva vidhyalaya.
 
-# full stack web developmet 
-
-learn about html,css,js,reactjs etc.
