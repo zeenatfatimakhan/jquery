@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+
+        $(Document).ready(function(){
+
+            $(".hide").click(function(){
+
+                $("p:odd").hide(1500);
+            });
+
+            $(".show").click(function(){
+                $("p").show(1500);
+            });
+
+
+            } );
+        // $(document).ready(function(){
+
+        //     $("button").click(function(){
+        //         $("#div1").fadeToggle();
+        //         $("#div2").fadeToggle("slow");
+        //         $("#div3").fadeToggle("3000");
+        //     })
+
+        // } );
+            
+    </script>
+</head>
+<body>
+
+    <h1 class="page">hello world</h1>
+    <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem necessitatibus natus repudiandae ea aspernatur totam et voluptates? Perferendis iste corporis quis voluptates quibusdam, repudiandae molestiae itaque. Hic iusto tempora obcaecati?</p>
+    <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sit qui? Voluptas necessitatibus quasi officia dignissimos quo! Incidunt culpa pariatur, sapiente nobis modi ex repellat cupiditate. Possimus explicabo recusandae tempore.</p>
+    <p>3Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa sit repellendus totam eligendi nisi reprehenderit tenetur itaque delectus natus sunt molestias iure earum, voluptatibus tempore modi, dicta consectetur? Eaque, minus?</p>
+    <p>4Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, et est odit vero eum praesentium porro atque consectetur sed, aut perferendis rem minus natus quas aspernatur rerum tempore, ullam deserunt?</p>
+   
+    <button class="hide">click here</button>
+   <button class="show">show</button><br><hr width="70%">
+
+
+   <!-- <button>_______click______</button>
+
+   <div id="div1" style="width: 80px; height: 80px; display: none;background-color: aqua;"></div>
+    <div id="div2" style="width: 80px; height: 80px; display: none;background-color: violet;"></div>
+    <div id="div3" style="width: 80px; height: 80px; display: none;background-color: rgb(181, 218, 17);"></div>
+     -->
+</body>
+</html>
